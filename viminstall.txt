@@ -1,0 +1,3 @@
+Edit->Preferences->External Tools
+Browse for your gVim executable
+External Script Editor Args: --remote-tab-silent +$(Line) "$(File)"
