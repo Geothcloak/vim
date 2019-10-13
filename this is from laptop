@@ -1,0 +1,23 @@
+"yes this is real
+
+"set bg color to black
+set background=dark
+
+"set tabs to 4spaces, auto indent
+set expandtab ts=4 sw=4 ai
+
+"set numbers
+
+"vim-plug plugin manager   PlugInstall, PlugUpdate, 
+"https://www.youtube.com/watch?v=nDv9iPv_8R4       video i found pluginmanager
+call plug#begin('~/.vim/plugged')
+
+"snipmate plugin
+Plug 'https://github.com/garbas/vim-snipmate'
+"dependancy for snipmate
+Plug 'https://github.com/MarcWeber/vim-addon-mw-utils'
+Plug 'https://github.com/tomtom/tlib_vim.git'
+Plug 'https://github.com/honza/vim-snippets.git'
+
+
+call plug#end()
